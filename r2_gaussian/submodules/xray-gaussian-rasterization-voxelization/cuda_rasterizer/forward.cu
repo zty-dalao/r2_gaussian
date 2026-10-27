@@ -13,6 +13,11 @@
 #include "auxiliary.h"
 #include <cooperative_groups.h>
 #include <cooperative_groups/reduce.h>
+
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
+
 namespace cg = cooperative_groups;
 
 // Forward method for converting the input spherical harmonics

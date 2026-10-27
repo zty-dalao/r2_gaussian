@@ -11,3 +11,12 @@ volume_raw
 FIPS_raw
 FIPS_processed
 other_scripts
+
+*.pyd
+*.dll
+*.obj
+*.lib
+*.exp
+*.egg-link
+*.log
+.pip-temp/
